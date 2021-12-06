@@ -1,0 +1,6 @@
+LINHA DE COMANDO PARA A CRIAÇÃO DO PROJETO:
+dotnet new mvc -o ApiAuth -f net5.0
+
+ACRESCENTANDO PACOTES
+dotnet add package Microsoft.AspNetCore.Authentication
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
