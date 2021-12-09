@@ -1,0 +1,5 @@
+dotnet new webapi -o RefreshTokenAuth -f net5.0
+
+dotnet add package Microsoft.AspNetCore.Authentication
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer -v 5.0
